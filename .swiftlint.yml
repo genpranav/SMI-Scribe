@@ -1,0 +1,12 @@
+included:
+  - App
+  - Packages/ScribeKit/Sources
+  - Packages/ScribeKit/Tests
+excluded:
+  - Packages/ScribeKit/.build
+line_length: 120
+identifier_name:
+  excluded: [id, db, at, t, a, b, i]
+disabled_rules:
+  - trailing_comma
+  - todo
